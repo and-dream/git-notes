@@ -33,3 +33,17 @@ git commit -m "message"
 git log
 git log --oneline
 
+// mise à jour du dernier commit
+get commit --amend
+
+// pour naviguer entre les commits
+git checkout [id commit]
+
+//pour revenir à la dernière sauvegarde
+git checkout [nom de la branche]
+
+--------------- Branch--------------
+git branch
+
+//creer des branches
+git branch [nom de la branche]
