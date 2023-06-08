@@ -11,6 +11,25 @@ git config --global --edit
 
 git config --global core.editor 'code --wait'
 
+//ouvrir le terminal
+ctrl + ù 
+
 --------------- INITIALISATION--------------
 git init 
+
+// permet de visualiser l'état des fichiers
+git status
+
+--------------- Commit--------------
+Staging area / Zone de transit
+
+git add [fichier] 
+git add . [tous les fichiers]
+
+//obligtoire de mettre un message
+git commit -m "message"
+
+//visualiser les commit
+git log
+git log --oneline
 
