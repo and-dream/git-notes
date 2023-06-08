@@ -47,3 +47,12 @@ git branch
 
 //creer des branches
 git branch [nom de la branche]
+
+git switch [nom de la branche]
+
+//on se met sur la branche qui veut récupérer les modifications de l'autre branche
+git merge [nom de la branche]
+
+git branch -m [nouveau nom]
+
+
