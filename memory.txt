@@ -1,0 +1,16 @@
+--------------- CONFIGURATION--------------
+git -v 
+
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@gmail.com"
+
+git config --global color .ui true
+
+// ça ouvre le fichier de configuration
+git config --global --edit 
+
+git config --global core.editor 'code --wait'
+
+--------------- INITIALISATION--------------
+git init 
+
