@@ -59,3 +59,12 @@ git merge [nom de la branche]
 git branch -m [nouveau nom]
 
 
+
+
+
+
+
+
+
+
+https://www.hostinger.fr/tutoriels/commandes-git#Git_merge
