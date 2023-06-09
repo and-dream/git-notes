@@ -58,10 +58,17 @@ git merge [nom de la branche]
 //renommer une branche
 git branch -m [nouveau nom]
 
+//avant de faire un merge il faut faire une sauvegarde du fichier
 
 
 
+--------------- Restore--------------
 
+//il restaure le fichier jusqu'à son dernier commit
+git restore [nom-de-fichier]
+
+//enlève de la staging area, ça enlève le git add
+git restore --staged [nom du fichier]
 
 
 
