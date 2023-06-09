@@ -29,7 +29,7 @@ git add . [tous les fichiers]
 //obligtoire de mettre un message
 git commit -m "message"
 
-//visualiser les commit
+//visualiser les commits 
 git log
 git log --oneline
 
@@ -43,16 +43,19 @@ git checkout [id commit]
 git checkout [nom de la branche]
 
 --------------- Branch--------------
+//visualiser les branches
 git branch
 
 //creer des branches
 git branch [nom de la branche]
 
+//se déplacer 
 git switch [nom de la branche]
 
 //on se met sur la branche qui veut récupérer les modifications de l'autre branche
 git merge [nom de la branche]
 
+//renommer une branche
 git branch -m [nouveau nom]
 
 
